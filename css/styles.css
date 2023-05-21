@@ -50,11 +50,16 @@ table {
 
 .header-block-button {
   margin: auto;
-  width: 10%;
-  font-size: 24px;
+  width: 15%;
+  font-size: 100%;
   padding: 0.3%;
   border-radius: 10px;
   border: 3px solid green;
+}
+
+.header-block-button-text {
+  font-size: 24px;
+  text-transform: uppercase;
 }
 
 .header-block-button:hover {
@@ -72,6 +77,15 @@ table {
 .main-main {
   padding: 23.6%;
   border: 1px solid black;
+  background-color: rgba(0, 0, 0, 0.288);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/test-image.jpg");
+  background-size: 100%;
+}
+
+.main-main-text {
+  font-size: 400%;
+  color: white;
+  text-transform: uppercase;
 }
 
 .main-about {
