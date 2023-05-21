@@ -57,6 +57,14 @@ table {
   border: 3px solid green;
 }
 
+.header-block-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.header-block-button:active {
+  background-color: gray;
+}
+
 .main {
   text-align: center;
 }
