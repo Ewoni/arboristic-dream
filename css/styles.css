@@ -113,16 +113,47 @@ table {
   margin: auto;
 }
 
+.main-services-service-image-image {
+  width: 100%;
+  border-radius: 5px;
+}
+
 .main-services-service-price {
   border: 1px solid purple;
   width: 90%;
   margin: auto;
 }
 
+.main-services-service-price-text {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
 .main-services-service-text {
   border: 1px solid green;
   width: 90%;
   margin: auto;
+}
+
+.main-services-service-text-text {
+  font-size: 200%;
+  text-transform: uppercase;
+}
+
+.main-services-service-info-button {
+  width: 50%;
+  font-size: 200%;
+  border-radius: 10px;
+  text-transform: uppercase;
+  border: 1px solid black;
+}
+
+.main-services-service-info-button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.main-services-service-info-button:active {
+  background-color: rgb(128, 128, 128);
 }
 
 .main-calculator {
@@ -148,4 +179,3 @@ table {
 }
 
 /*# sourceMappingURL=styles.css.map */
-/* Маме своей sourceMappingURL=styles.css.map пропиши */
